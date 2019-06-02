@@ -306,15 +306,38 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Tableau de bord</h1>
+                    <h1 class="page-header">Créer un projet de déplacement</h1>
                 </div>
                         <!-- /.panel-body --><br/><br/>
-                        <center><h2>Bienvenue sur "Organise ton Voyage"</h2></center><br />
+                        Type de déplacement :
+                        <div>
+                            <input type="checkbox"><label for="Personnel (loisirs, vacances...)"> Personnel (loisirs, vacances...)</label>   
+                        </div>
+                        <div>                           <input type="checkbox"><label for="<input type="checkbox"><label for="Personnel"> Professionnel (salon, séminaire, rendez-vous)</label>
+                        </div>
+
+                        <br /><br />
+
+                        Nom du projet : <input type="text"><br />
                         <br />
+<br />
+                        <h3>Dates</h3><br />
 
-                        Bienvenue dans ton espace, où tu pourra organiser tes déplacement personnels (voyages...) et aussi les déplacements professionnels (séminaires, rendez-vous...).
+                        <div class="col-sm-6">
+                            <td syle="padding-left:50px">Début :<br />
+                            <input type="date"></td><br />
+                        </div>
+                        <div class="col-sm-6">
+                            <td syle="padding-left:50px">Début :<br />
+                            <input type="date"></td><br />
+                        </div>
+                        <br /><br />
+                        <h3>Description</h3><br />
 
-                        
+                        <textarea id="story" name="story"
+          rows="5" cols="33">
+It was a dark and stormy night...
+</textarea>
 
                         <!-- /.panel-footer -->
                     </div>
